@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonintents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="intent compartir"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnwhats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonintents"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="intent whatsapp" />
+
+    <Button
+        android:id="@+id/btntelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnwhats"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="intent telefono llamada" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntelefono"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="intent gmail email" />
+
+    <Button
+        android:id="@+id/btnPickImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEmail"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="pick an image" />
+
+
+
+</RelativeLayout>
